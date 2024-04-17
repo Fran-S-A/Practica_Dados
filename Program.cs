@@ -23,17 +23,23 @@ namespace Practica_Dados
             */
             while (valorDado1 != 6 || valorDado2 != 6)
             {
-                /**
-                 * Se genera el valor entre los valores especificados sin incluir el más alto.
-                 */
-                valorDado1 = rand.Next(1,7);
-                valorDado2 = rand.Next(1,7);
+                valorDado1 = Program.tiradas(rand);
+                valorDado2 = Program.tiradas(rand);
                 Console.WriteLine("Dado 1 - Dado 2");
                 Console.WriteLine("  " + valorDado1 + "        " + valorDado2);
                 tiradas++;
             }
             // Al terminar se imprimen las tiradas.
             Console.WriteLine("Número de tiradas: " + tiradas);
+        }
+        /// <summary>
+        /// Metodo que genera el valor entre 1 y 6.
+        /// </summary>
+        /// <param name="rand">Objeto Random que genera el número.</param>
+        /// <returns></returns>
+        private static int tiradas(Random rand)
+        {
+            return rand.Next(1, 7);
         }
     }
 }
