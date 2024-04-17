@@ -25,13 +25,23 @@ namespace Practica_Dados
             {
                 valorDado1 = Program.tiradas(rand);
                 valorDado2 = Program.tiradas(rand);
-                Console.WriteLine("Dado 1 - Dado 2");
-                Console.WriteLine("  " + valorDado1 + "        " + valorDado2);
+                mostrarResultado(valorDado1, valorDado2);
                 tiradas++;
             }
             // Al terminar se imprimen las tiradas.
             Console.WriteLine("Número de tiradas: " + tiradas);
         }
+        /// <summary>
+        /// Metodo que imprime los resultados.
+        /// </summary>
+        /// <param name="valorDado1">Entero con el valor del dado 1</param>
+        /// <param name="valorDado2">Entero con el valor del dado 2</param>
+        private static void mostrarResultado(int valorDado1, int valorDado2)
+        {
+            Console.WriteLine("Dado 1 - Dado 2");
+            Console.WriteLine("  " + valorDado1 + "        " + valorDado2);
+        }
+
         /// <summary>
         /// Metodo que genera el valor entre 1 y 6.
         /// </summary>
