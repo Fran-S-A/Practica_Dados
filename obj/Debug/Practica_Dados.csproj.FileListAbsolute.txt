@@ -1,0 +1,7 @@
+C:\Users\Fran Pc\source\repos\Practica_Dados\Practica_Dados\bin\Debug\Practica_Dados.exe.config
+C:\Users\Fran Pc\source\repos\Practica_Dados\Practica_Dados\bin\Debug\Practica_Dados.exe
+C:\Users\Fran Pc\source\repos\Practica_Dados\Practica_Dados\bin\Debug\Practica_Dados.pdb
+C:\Users\Fran Pc\source\repos\Practica_Dados\Practica_Dados\obj\Debug\Practica_Dados.csproj.AssemblyReference.cache
+C:\Users\Fran Pc\source\repos\Practica_Dados\Practica_Dados\obj\Debug\Practica_Dados.csproj.CoreCompileInputs.cache
+C:\Users\Fran Pc\source\repos\Practica_Dados\Practica_Dados\obj\Debug\Practica_Dados.exe
+C:\Users\Fran Pc\source\repos\Practica_Dados\Practica_Dados\obj\Debug\Practica_Dados.pdb
